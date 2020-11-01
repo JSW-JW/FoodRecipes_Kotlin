@@ -1,4 +1,7 @@
 # penetrate structure in this app
+<br>
+* Sequence the app is executed.
+<br>
 1. (NetworkBoundResource, LiveDataCallAdapter, LiveDataCallAdapterFactory) -> create ApiResponse<T>
 2. According to the functions that will implemented in repository, they will be executed when Retrofit call is made.
 3. The 'sequence that response is retrieved and inserted into db and loaded' is (1)shouldFetch(), (2)createCall, (3)saveCallResult, (4)loadFromDb()
