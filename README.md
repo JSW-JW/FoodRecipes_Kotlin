@@ -1,3 +1,8 @@
+# Single Source of Truth Principal applied.
+
+* In any case, the view is updated from the **liveData** retrieved from **cache**, the cache gets updated from **network request**.
+* So, **mvvm architecture** is proper for this app and it can improve the UX a lot. 
+
 # penetrate structure in this app
 
 1. (NetworkBoundResource, LiveDataCallAdapter, LiveDataCallAdapterFactory) -> create ApiResponse<T>
